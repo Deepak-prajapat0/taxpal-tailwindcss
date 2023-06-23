@@ -26,7 +26,7 @@ function Section1() {
                 key={index}
                 onClick={() => setTabIndex(index)}
               >
-                <button>{tab}</button>
+                <button  className=" max-md:w-max ">{tab}</button>
                 <p className="lg:block hidden">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
