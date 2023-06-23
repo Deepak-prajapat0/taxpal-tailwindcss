@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function PriceList() {
   const priceList = [
@@ -30,7 +31,9 @@ function PriceList() {
                     <span className="text-4xl">$ {item.cost}</span>
                     <h6>{item.type}</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                    <Link to='/login'>
                     <button className={` mt-3 w-full p-2 border ${index ===1 && "bg-white text-black"} rounded-3xl`}>Get started</button>
+                    </Link>
 
                     <ul className="pt-6 text-sm">
                       <li><IoIosCheckmarkCircleOutline className="inline m-2 text-lg"/>Lorem ipsum dolor sit </li>

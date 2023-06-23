@@ -15,7 +15,7 @@ function Section1() {
         </h3>
       </div>
       <div className="lg:w-max flex lg:flex-row flex-col items-center ">
-        <div className=" lg:w-auto w-3/4 lg:p-0 p-4 flex lg:flex-col flex-row justify-between">
+        <div className=" lg:w-auto w-full lg:p-0 p-4 flex lg:flex-col flex-row justify-center">
           {tabs.map((tab, index) => {
             return (
               <div

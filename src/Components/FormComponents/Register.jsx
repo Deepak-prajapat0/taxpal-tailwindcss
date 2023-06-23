@@ -9,7 +9,7 @@ function Register() {
         {name:"Password",type:"password",placeholder:"* * * * * * * *"}
     ]
   return (
-    <div className="w-screen h-[100vh] max-md:py-2 md:flex flex-row items-center justify-between">
+    <div className="w-screen h-[90vh] max-md:py-2 md:flex flex-row items-center justify-between">
       <div className="w-1/2 max-md:w-full">
       <form className=" p-4 w-[24rem] m-auto flex flex-col gap-5">
         <div className="text-start">
@@ -42,7 +42,7 @@ function Register() {
        
       </form>
       </div>
-      <div className="block max-md:hidden h-full w-1/2 bg-blue-600">
+      <div className="block max-md:hidden h-full w-1/2 bg-gradient-to-r from-blue-400 to-blue-700">
 
       </div>
     </div>

@@ -36,7 +36,7 @@ return (
    
   </form>
   </div>
-  <div className="block max-md:hidden h-full w-1/2 bg-blue-600">
+  <div className="block max-md:hidden h-full w-1/2 bg-gradient-to-r from-blue-400 to-blue-700">
 
   </div>
 </div>

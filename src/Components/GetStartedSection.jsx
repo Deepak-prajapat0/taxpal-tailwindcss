@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function GetStartedSection() {
   return (
@@ -10,7 +11,9 @@ function GetStartedSection() {
           necessitatibus dicta sed, inventore aliquam, exercitationem iure
           repudiandae, architecto maiores non pariatur quam?
         </p>
+        <Link to='/login'>
         <button className="w-max mt-4 p-2 px-4 rounded-3xl bg-white text-black">Get 6 months free</button>
+        </Link>
       </div>
     </section>
   );

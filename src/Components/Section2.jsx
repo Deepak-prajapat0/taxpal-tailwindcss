@@ -13,7 +13,6 @@ function Section2() {
     const [hoverIndex,setHoverIndex]=useState(-1);
   return (
     <section id="crousal-section" className="p-10 pt-20">
-      <div>
         <div id="heading" className="max-w-[50rem] m-auto">
           <h1 className="p-6 text-5xl">Simplify everyday bussiness tasks</h1>
           <p>
@@ -34,8 +33,6 @@ function Section2() {
             )
         })}
         </div>
-      </div>
-      <div id="imagesSection"></div>
     </section>
   );
 }

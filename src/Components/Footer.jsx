@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsGithub,BsTwitter } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,8 +9,10 @@ function Footer() {
         <span>Copyright @2023</span>
     </div>
     <div id='social-links' className='flex flex-row gap-6 text-2xl'>
+      <Link to='https://github.com/Deepak-prajapat0' target='_blank' className='hover:text-blue-600'>
         <BsGithub className='cursor-pointer'/>
-        <BsTwitter className='cursor-pointer'/>
+      </Link>
+        <BsTwitter className='cursor-pointer hover:text-blue-600' />
     </div>
   </footer>
   )

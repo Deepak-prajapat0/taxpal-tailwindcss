@@ -3,6 +3,7 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import GetStartedSection from "./GetStartedSection";
 import { homeImages } from "../images/images";
+import { Link } from "react-router-dom";
 
 function Home() {
  
@@ -19,9 +20,10 @@ function Home() {
           opposite trade-off, and hope you don't get audited.
         </h3>
         <div className="m-auto p-4 w-max flex flex-row justify-center gap-6">
+          <Link to='/login'>
           <button className=" p-2 rounded-3xl bg-black text-white">
             Get 6 months free
-          </button>
+          </button></Link>
           <button className="p-2 flex flex-row items-center  rounded-3xl border">
             <img
               className="h-6"
